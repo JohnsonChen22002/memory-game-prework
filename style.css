@@ -1,0 +1,114 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #1C2333;
+  color: #4E97E1; 
+  font-weight: bold;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 25px;
+  color: #d47720;
+  text-shadow: 2px 2px black;
+  background-color: black;
+  border-radius: 10px;
+  font-family: Stencil Std, fantasy;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#startBtn {
+  color: white;
+	background-color: green;
+}
+
+#stopBtn {
+  color: white;
+	background-color: #EF233C;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+  background:green;
+  transform: translateY(20px);
+	transform: rotateZ(10deg);
+}
+
+#button2 {
+    background: lightblue;
+}
+
+#button2:active, #button2.lit {
+  background:blue;
+  transform: translateY(20px);
+	transform: rotateZ(10deg);
+}
+
+#button3 {
+    background: pink;
+}
+
+#button3:active, #button3.lit {
+  background:red;
+  transform: translateY(20px);
+	transform: rotateZ(10deg);
+}
+
+#button4 {
+    background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+  background:yellow;
+  transform: translateY(20px);
+	transform: rotateZ(10deg);
+}
+
+#button5 {
+    background: violet;
+}
+
+#button5:active, #button5.lit {
+  background:purple;
+  transform: translateY(20px);
+	transform: rotateZ(10deg);
+}
